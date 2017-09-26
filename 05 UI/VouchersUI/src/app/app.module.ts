@@ -56,7 +56,7 @@ import {NgxChartsModule} from '@swimlane/ngx-charts';
     NgxChartsModule   
   ],
   providers: [
-    VouchersService,
+    VouchersService ,
     {provide: LOCALE_ID, useValue: "de-DE"},
     RouteGuard
   ],
